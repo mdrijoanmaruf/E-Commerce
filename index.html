@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .inter{
+            font-family: "Inter", serif;
+        }
+    </style>
+</head>
+<body class="inter">
+    <!-- Top Bar -->
+     <div>
+        <div class="py-2 bg-black text-center text-white font-[300] text-[12px]">
+            <p>
+                Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+                <span class="font-semibold underline"> ShopNow</span>
+            </p>
+        </div>
+     </div>
+
+     <!-- Nav Bar -->
+    <nav class="max-w-7xl mx-auto">
+        <div class="flex justify-between py-4 items-center">
+            <h2 class="text-2xl font-bold">Exclusive</h2>
+            <ul class="flex gap-6 items-center">
+                <li class="cursor-pointer hover:underline font-[500]">Home</li>
+                <li class="cursor-pointer hover:underline font-[500]">Contact</li>
+                <li class="cursor-pointer hover:underline font-[500]">About</li>
+                <li class="cursor-pointer hover:underline font-[500]">Sign Up</li>
+            </ul>
+            <div class="flex items-center gap-4">
+                <div class="relative">
+                    <input class="bg-[#F5F5F5] rounded-md py-2 px-2 pr-5 text-[12px]" placeholder="What are you locking for?" type="text">
+                    <i class="fa-solid fa-magnifying-glass absolute right-2 top-2 text-gray-400 text-xs"></i>
+                </div>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </nav>
+    <hr>
+
+
+    <main class="max-w-7xl mx-auto">
+        <!-- Hero Section -->
+         <section class="grid grid-cols-5">
+            <div class=" border-r-2">
+                <ul class="flex flex-col gap-4 text-[16px] font-[400] pt-6">
+                    <li>Woman's Fashion</li>
+                    <li>Men’s Fashion</li>
+                    <li>Electronics</li>
+                    <li>Home & Lifestyle</li>
+                    <li>Medicine</li>
+                    <li>Sports & Outdoor</li>
+                    <li>Baby’s & Toys</li>
+                    <li>Groceries & Pets</li>
+                    <li>Health & Beauty</li>
+                </ul>
+            </div>
+            <div class="col-span-4 grid grid-cols-2 bg-black mx-6 mt-6 text-white">
+                <div class="p-6 flex flex-col justify-center gap-6">
+                    <div class="flex items-center gap-4">
+                        <i class="fa-brands fa-apple text-[40px]"></i>
+                        <p>iPhone 16 Series</p>
+                    </div>
+                    <h1 class="text-4xl font-bold">Up to 10% <br> Off Voucher</h1>
+                    <div>
+                        <button class="flex items-center gap-2 ">
+                            <p class="underline">Shop Now</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/hero.png" alt="">
+                </div>
+            </div>
+         </section>
+    </main>
+</body>
+</html>
