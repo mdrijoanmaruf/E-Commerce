@@ -56,15 +56,15 @@
          <section class="grid grid-cols-5">
             <div class=" border-r-2">
                 <ul class="flex flex-col gap-4 text-[16px] font-[400] pt-6">
-                    <li>Woman's Fashion</li>
-                    <li>Men’s Fashion</li>
-                    <li>Electronics</li>
-                    <li>Home & Lifestyle</li>
-                    <li>Medicine</li>
-                    <li>Sports & Outdoor</li>
-                    <li>Baby’s & Toys</li>
-                    <li>Groceries & Pets</li>
-                    <li>Health & Beauty</li>
+                    <li class="hover:font-semibold cursor-pointer">Woman's Fashion</li>
+                    <li class="hover:font-semibold cursor-pointer">Men’s Fashion</li>
+                    <li class="hover:font-semibold cursor-pointer">Electronics</li>
+                    <li class="hover:font-semibold cursor-pointer">Home & Lifestyle</li>
+                    <li class="hover:font-semibold cursor-pointer">Medicine</li>
+                    <li class="hover:font-semibold cursor-pointer">Sports & Outdoor</li>
+                    <li class="hover:font-semibold cursor-pointer">Baby’s & Toys</li>
+                    <li class="hover:font-semibold cursor-pointer">Groceries & Pets</li>
+                    <li class="hover:font-semibold cursor-pointer">Health & Beauty</li>
                 </ul>
             </div>
             <div class="col-span-4 grid grid-cols-2 bg-black mx-6 mt-6 text-white">
@@ -81,11 +81,82 @@
                         </button>
                     </div>
                 </div>
-                <div>
-                    <img src="images/hero.png" alt="">
+                <div class="overflow-hidden">
+                    <img class="hover:scale-105  object-cover duration-300" src="images/hero.png" alt="">
                 </div>
             </div>
          </section>
+
+         <!-- Todays Section -->
+        <section class="mt-[100px]">
+            <div>
+                <h1 class="font-[600] border-l-8 pl-2 border-[#DB4444] text-[#DB4444]">Today's</h1>
+                <div class="flex justify-between items-end">
+                    <div class="flex justify-between items-center gap-[87px]">
+                        <p class="text-[32px] font-semibold mt-3">
+                            Flash Sales
+                        </p>
+                        <div class="flex gap-3">
+                            <div class="flex items-center gap-2">
+                                <div>
+                                    <p class="text-[12px] font-[500]">Days</p>
+                                    <p class="text-[30px] font-[700]">03</p>
+                                </div>
+                                <span class="text-[#E07575] text-4xl mt-3">:</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div>
+                                    <p class="text-[12px] font-[500]">Hours</p>
+                                    <p class="text-[30px] font-[700]">23</p>
+                                </div>
+                                <span class="text-[#E07575] text-4xl mt-3">:</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <div>
+                                    <p class="text-[12px] font-[500]">Minutes</p>
+                                    <p class="text-[30px] font-[700]">19</p>
+                                </div>
+                                <span class="text-[#E07575] text-4xl mt-3">:</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <div>
+                                    <p class="text-[12px] font-[500]">Second</p>
+                                    <p class="text-[30px] font-[700]">56</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-arrow-left rounded-full bg-[#F5F5F5] p-4 cursor-pointer" ></i>
+                    <i class="fa-solid fa-arrow-right rounded-full bg-[#F5F5F5] p-4 cursor-pointer"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-4 gap-6">
+                <div >
+                    <div class="bg-[#F5F5F5] p-12 rounded-lg">
+                        <img src="images/controller.png" alt="">
+                    </div>
+
+                    <h2 class="font-[500] mt-4">HAVIT HV-G92 Gamepad</h2>
+                    <div>
+                        <p>$120</p>
+                        <p>$120</p>
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>(88)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
